@@ -1,0 +1,10 @@
+body{
+    color: goldenrod;
+    font-family: helvetica, arial, sans-serif;
+    background-color: gray;
+}
+
+header{
+    padding: 20px 35px;
+    background-color: #393939
+}
