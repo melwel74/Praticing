@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 body{
     color: goldenrod;
     font-family: helvetica, arial, sans-serif;
@@ -14,8 +22,38 @@ header h1{
     font-size: 36px;
     color:#024959;
     margin: 0;
+    display: inline;
 }
 
 header a{
+    text-decoration: none;
     color: goldenrod;
+}
+
+header nav{
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    margin: 0 30px;
+    font-weight: lighter;
+    font-weight: 22px;
+}
+
+footer{
+    background:#024959;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2{
+    display: inline;
+    color: goldenrod;
+    font-size: 30px;
+    margin: 0;
 }
