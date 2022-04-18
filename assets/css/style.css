@@ -78,6 +78,41 @@ section{
     width: 500px;
     color: #024959;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 120px;
+    right: 140px;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: #024959 */
 }
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.hero-form h3 {
+    font-size:24px;
+    margin: 0;
+}
+
+.hero-form button {
+    color: #024959;
+    background-color: goldenrod;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.form-input {
+    border: 1px solid gray;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024959;
+    width: 100%;
+    margin-bottom: 15px;
+  }
